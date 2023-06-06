@@ -1,26 +1,26 @@
-import config from '../../../config/index'
-import ApiError from '../../../errors/ApiError'
-import { IUser } from './user.interface'
-import { User } from './user.model'
-import { generateUserId } from './user.utils'
+import config from '../../../config/index';
+import ApiError from '../../../errors/ApiError';
+import { IUser } from './user.interface';
+import { User } from './user.model';
+import { generateUserId } from './user.utils';
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
   // auto generated incremental id
-  const id = await generateUserId()
-  user.id = id
+  const id = await generateUserId();
+  user.id = id;
 
   // default password
   if (!user.password) {
-    user.password = config.default_user_pass as string // type alias
+    user.password = config.default_user_pass as string; // type alias
   }
 
-  const createUserRole = await User.create(user)
+  const createUserRole = await User.create(user);
   if (!createUserRole) {
-    throw new ApiError(400, 'Failed to create user')
+    throw new ApiError(400, 'Failed to create user');
   }
-  return createUserRole
-}
+  return createUserRole;
+};
 
 export const UserService = {
   createUser,
-}
+};
