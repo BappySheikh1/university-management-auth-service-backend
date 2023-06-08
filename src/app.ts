@@ -2,7 +2,7 @@ import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 const app: Application = express();
 import globalErrorHandler from './app/middleware/globalErrorHandler';
-import { UserRoutes } from './app/modules/users/user.route';
+import routes from './app/Routes';
 
 app.use(cors());
 
@@ -10,7 +10,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/v1/user', UserRoutes);
+// app.use('/api/v1/user', UserRoutes);
+// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
+app.use('/api/v1', routes);
 
 // Testing
 app.get('/', async (req: Request, res: Response, next: NextFunction) => {

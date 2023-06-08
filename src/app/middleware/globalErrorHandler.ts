@@ -7,7 +7,7 @@ import handleValidationError from '../../errors/handleValidationError';
 import ApiError from '../../errors/ApiError';
 import { errorLogger } from '../../shared/logger';
 import { ZodError } from 'zod';
-import handleZodError from '../../errors/handleZodError';
+import handleZodError from './handleZodError';
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
