@@ -3,6 +3,7 @@ import catchAsync from '../../../shared/catchAsync';
 import { NextFunction, Request, Response } from 'express';
 import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
+import { IAcademicSemester } from './academicSemester.interface';
 
 const createAcademicSemester = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
@@ -11,14 +12,14 @@ const createAcademicSemester = catchAsync(
       academicSemesterData
     );
 
-    next();
-
-    sendResponse(res, {
+    sendResponse<IAcademicSemester>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic Semester created successfully',
       data: result,
     });
+
+    next();
   }
 );
 

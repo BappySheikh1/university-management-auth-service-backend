@@ -376,3 +376,17 @@
   label: 'PH',
   timestamp: '2023-06-07T07:28:44.322Z'
 }
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-07T07:28:49.288Z'
+}
+{
+  message: 'Example app listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-07T07:28:49.298Z'
+}
