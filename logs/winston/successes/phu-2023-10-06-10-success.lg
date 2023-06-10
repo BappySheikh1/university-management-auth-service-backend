@@ -544,3 +544,31 @@
   label: 'PH',
   timestamp: '2023-06-10T17:20:49.594Z'
 }
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T17:22:14.213Z'
+}
+{
+  message: 'Example app listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T17:22:14.219Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T17:23:22.531Z'
+}
+{
+  message: 'Example app listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T17:23:22.538Z'
+}
