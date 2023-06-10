@@ -11,9 +11,13 @@ router
     validationRequest(AcademicFacultyValidation.createFacultyZodSchema),
     AcademicFacultyController.createAcademicFaculty
   )
-  .get('/:id')
+  .get('/:id', AcademicFacultyController.getSingleFaculty)
   .get('/', AcademicFacultyController.getAllFaculties)
-  .patch('/:id')
-  .delete('/:id');
+  .patch(
+    '/:id',
+    validationRequest(AcademicFacultyValidation.updateFacultyZodSchema),
+    AcademicFacultyController.updateFaculty
+  )
+  .delete('/:id', AcademicFacultyController.deleteFaculty);
 
 export const AcademicFacultyRoutes = router;
