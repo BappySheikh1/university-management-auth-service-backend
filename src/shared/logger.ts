@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 import path from 'path';
-import { format, createLogger, transports } from 'winston';
+import { format, createLogger } from 'winston';
 import DailyRotateFile from 'winston-daily-rotate-file';
 
 const { combine, timestamp, label, printf, prettyPrint } = format;
@@ -19,7 +19,6 @@ const logger = createLogger({
   format: combine(label({ label: 'PH' }), timestamp(), myFormat, prettyPrint()),
   defaultMeta: { service: 'user-service' },
   transports: [
-    new transports.Console(),
     new DailyRotateFile({
       filename: path.join(
         process.cwd(),
@@ -41,7 +40,6 @@ const errorLogger = createLogger({
   format: combine(label({ label: 'PH' }), timestamp(), myFormat, prettyPrint()),
   defaultMeta: { service: 'user-service' },
   transports: [
-    new transports.Console(),
     new DailyRotateFile({
       filename: path.join(
         process.cwd(),
