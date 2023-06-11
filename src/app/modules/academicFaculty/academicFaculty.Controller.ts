@@ -48,7 +48,7 @@ const getSingleFaculty = catchAsync(async (req: Request, res: Response) => {
   sendResponse<IAcademicFaculty>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Academic Faculty created successfully',
+    message: 'Academic SingleFaculty get successfully',
     data: result,
   });
 });
