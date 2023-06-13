@@ -6,8 +6,8 @@ import httpStatus from 'http-status';
 import { IUser } from './user.interface';
 
 const createStudent = catchAsync(async (req: Request, res: Response) => {
-  const userData = req.body;
-  const result = await UserService.createStudent(userData);
+  const { student, ...userData } = req.body;
+  const result = await UserService.createStudent(student, userData);
   // console.log(req.body.userData);
 
   sendResponse<IUser>(res, {
