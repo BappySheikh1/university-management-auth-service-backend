@@ -1,0 +1,18 @@
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-11T16:33:26.242Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-11T16:33:34.262Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-11T16:34:00.251Z'
+}
