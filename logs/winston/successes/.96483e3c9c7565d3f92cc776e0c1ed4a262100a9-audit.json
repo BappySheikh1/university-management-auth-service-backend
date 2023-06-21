@@ -6,86 +6,6 @@
     "auditLog": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\.96483e3c9c7565d3f92cc776e0c1ed4a262100a9-audit.json",
     "files": [
         {
-            "date": 1685724389156,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-02-06-09-success.lg",
-            "hash": "ac956456ac0a631f25315cd696d515b5d0875b10e120f67480dee6992d312553"
-        },
-        {
-            "date": 1685728807439,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-02-06-11-success.lg",
-            "hash": "8d7e33907874b330f3b6cfd967a41bf30f3109d7cf895fcf527f842b4363f890"
-        },
-        {
-            "date": 1685792378218,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-03-06-04-success.lg",
-            "hash": "01d150350d9d4bcbefda6549a847373c07c95df3f9af35410601107c02944e1b"
-        },
-        {
-            "date": 1685800047305,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-03-06-06-success.lg",
-            "hash": "d9f3758b0f1024583ff37222a0a31cd38a2512c656f9c398d146c77878ecf08b"
-        },
-        {
-            "date": 1685808728683,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-03-06-09-success.lg",
-            "hash": "8f1e3bec3896f106831e8da391c8347fdbede95a936848e6789eb67a6b0d89ce"
-        },
-        {
-            "date": 1685851913107,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-03-06-21-success.lg",
-            "hash": "2097c84d690b69f2ee758fce69bb27734443956909012e174539e4d9806ec19a"
-        },
-        {
-            "date": 1685961995163,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-05-06-03-success.lg",
-            "hash": "74c359d964bb4980d966d5969aafdd95c98c8ea47f4433946223f6c56f4caaa4"
-        },
-        {
-            "date": 1685962824035,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-05-06-04-success.lg",
-            "hash": "5f574573dd54508e946f2074b43da111dda7962e354d302f6d51baf292fc1db0"
-        },
-        {
-            "date": 1685977182791,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-05-06-07-success.lg",
-            "hash": "ba42b0b4d5f673813a0e35d43872fd2092d04c8f3c39f5f15ee37e3157860a3f"
-        },
-        {
-            "date": 1685977835644,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-05-06-08-success.lg",
-            "hash": "49f3fcd1e05817847abf7a66b18620b361f0eb13eff79ba4092f25029e998944"
-        },
-        {
-            "date": 1685983518684,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-05-06-09-success.lg",
-            "hash": "e529ce09381bf82d678212b779e5b27420612990bd229084a93969be0cf72b6d"
-        },
-        {
-            "date": 1685984872386,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-05-06-10-success.lg",
-            "hash": "a12fcebda4860acc3a619e31d7a7c9e8a16ec99af7372f4f27eb21f9ec00eb08"
-        },
-        {
-            "date": 1686032674187,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-05-06-23-success.lg",
-            "hash": "af765427617199497f232b277338667782d6eab3041eb80f997eb620887a33f6"
-        },
-        {
-            "date": 1686058918132,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-06-06-06-success.lg",
-            "hash": "0cae88ab922b4a5bd3737efb40f0b4559955dfc8e1d0c2ecd3161317255ab19b"
-        },
-        {
-            "date": 1686060657087,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-06-06-07-success.lg",
-            "hash": "52805e85c7471bd355b7e1772a9c2c2f3d9d32d32065349a64bbcc2e93d6610e"
-        },
-        {
-            "date": 1686121419757,
-            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-07-06-00-success.lg",
-            "hash": "f40ea26ae2efc49dcfa0a79e5a5d6d1c3fae0411f55a1eaa354cd78cb9b142e0"
-        },
-        {
             "date": 1686153986619,
             "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-07-06-09-success.lg",
             "hash": "d656d5e03c1a9cf2c0f1a6eca961b1716522a7498c27933aae16648fc97365ce"
@@ -299,6 +219,36 @@
             "date": 1686763229767,
             "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-14-06-10-success.lg",
             "hash": "2a47ee6848739e1bda1681a03eb6eeb1ee64e3e09b9bbef9f626faf016b1e010"
+        },
+        {
+            "date": 1686812539833,
+            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-15-06-00-success.lg",
+            "hash": "18b70be5ee0a80ce31755784d3542593b2b8e84856489b2dc36b3f391af2079d"
+        },
+        {
+            "date": 1687274740807,
+            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-20-06-21-success.lg",
+            "hash": "a58ceded178b069f79de8c2f9be2e06e93d6e77072d63ca110cea2912cb518a3"
+        },
+        {
+            "date": 1687355800160,
+            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-21-06-19-success.lg",
+            "hash": "cf766d195add29b06b28d5665a81be6b3283dcb80942600bd52b80dabb063a55"
+        },
+        {
+            "date": 1687356142047,
+            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-21-06-20-success.lg",
+            "hash": "5ee0dba714acb092f02f2467f2b8d0703343a5cb50d291c1806130be7c467491"
+        },
+        {
+            "date": 1687360738469,
+            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-21-06-21-success.lg",
+            "hash": "eb223f6c0094600e04812a6c27d2c12a545a566e5efee4cc723a2edfd260806d"
+        },
+        {
+            "date": 1687363521024,
+            "name": "D:\\Project\\level2-project\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-21-06-22-success.lg",
+            "hash": "19d449523f3d3db2ab38dd20e387e9e3bac88c4198978f47cbc6e118d44e5264"
         }
     ],
     "hashType": "sha256"

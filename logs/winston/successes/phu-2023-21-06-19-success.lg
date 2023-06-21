@@ -3,68 +3,68 @@
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:20:34.063Z'
+  timestamp: '2023-06-21T13:56:44.976Z'
 }
 {
   message: 'Example app listening on port 4000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:20:34.080Z'
+  timestamp: '2023-06-21T13:56:45.021Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:26:20.133Z'
+  timestamp: '2023-06-21T13:57:26.458Z'
 }
 {
   message: 'Example app listening on port 4000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:26:20.146Z'
+  timestamp: '2023-06-21T13:57:26.464Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:26:31.847Z'
+  timestamp: '2023-06-21T13:58:54.555Z'
 }
 {
   message: 'Example app listening on port 4000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:26:31.853Z'
+  timestamp: '2023-06-21T13:58:54.568Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:28:38.374Z'
+  timestamp: '2023-06-21T13:59:01.689Z'
 }
 {
   message: 'Example app listening on port 4000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:28:38.387Z'
+  timestamp: '2023-06-21T13:59:01.695Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:32:21.145Z'
+  timestamp: '2023-06-21T13:59:29.099Z'
 }
 {
   message: 'Example app listening on port 4000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-14T17:32:21.159Z'
+  timestamp: '2023-06-21T13:59:29.108Z'
 }
