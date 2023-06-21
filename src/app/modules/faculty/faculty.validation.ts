@@ -1,26 +1,4 @@
 import { z } from 'zod';
-import { bloodGroup, gender } from './faculty.Constant';
-
-const createFacultyZodSchema = z.object({
-  body: z.object({
-    name: z.object({
-      firstName: z.string(),
-      middleName: z.string().optional(),
-      lastName: z.string(),
-    }),
-    dateOfBirth: z.string(),
-    gender: z.enum([...gender] as [string, ...string[]]),
-    bloodGroup: z.enum([...bloodGroup] as [string, ...string[]]),
-    email: z.string().email(),
-    contactNo: z.string(),
-    emergencyContactNo: z.string(),
-    presentAddress: z.string(),
-    permanentAddress: z.string(),
-    academicDepartment: z.string(),
-    academicFaculty: z.string(),
-    profileImage: z.string(),
-  }),
-});
 
 const updateFacultyZodSchema = z.object({
   body: z.object({
@@ -43,6 +21,5 @@ const updateFacultyZodSchema = z.object({
 });
 
 export const FacultyValidation = {
-  createFacultyZodSchema,
   updateFacultyZodSchema,
 };

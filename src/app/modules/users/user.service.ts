@@ -166,7 +166,7 @@ const createAdmin = async (
     const newAdmin = await Admin.create([admin], { session });
 
     if (!newAdmin.length) {
-      throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create faculty ');
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create admin ');
     }
 
     user.admin = newAdmin[0]._id;
@@ -174,7 +174,7 @@ const createAdmin = async (
     const newUser = await User.create([user], { session });
 
     if (!newUser.length) {
-      throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create admin');
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create User');
     }
     newUserAllData = newUser[0];
 
