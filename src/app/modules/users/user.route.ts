@@ -14,7 +14,7 @@ router.post(
 // create faculty
 router.post(
   '/create-faculty',
-  validateRequest(UserValidation.createFacultyZodSchema),
+  // validateRequest(UserValidation.createFacultyZodSchema),
   UserController.createFaculty
 );
 

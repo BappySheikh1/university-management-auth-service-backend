@@ -5,7 +5,10 @@ import globalErrorHandler from './app/middleware/globalErrorHandler';
 import routes from './app/Routes';
 import httpStatus from 'http-status';
 
+import cookieParser from 'cookie-parser';
+
 app.use(cors());
+app.use(cookieParser());
 
 // parser
 app.use(express.json());
