@@ -978,3 +978,17 @@
   label: 'PH',
   timestamp: '2023-07-04T18:30:07.035Z'
 }
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-04T18:30:09.790Z'
+}
+{
+  message: 'Example app listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-04T18:30:09.796Z'
+}
