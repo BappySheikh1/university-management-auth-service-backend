@@ -6,7 +6,7 @@ export const findLastStudentId = async (): Promise<string | undefined> => {
     .sort({ createdAt: -1 })
     .lean();
 
-  return lastStudent?.id ? lastStudent?.id.substring(4) : undefined;
+  return lastStudent?.id ? lastStudent.id.substring(4) : undefined;
 };
 
 // Student id
