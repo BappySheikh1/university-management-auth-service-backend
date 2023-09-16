@@ -1,0 +1,18 @@
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'Failed to database connection Red is not defined',
+  stack: 'ReferenceError: Red is not defined\n' +
+    '    at D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:16:5\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:4:12)\n' +
+    '    at bootstrap (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:25:12)\n' +
+    '    at Object.<anonymous> (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:39:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n' +
+    '    at Module._compile (D:\\Project\\level2-project\\university-management-auth-service-backend\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\City\\AppData\\Local\\Temp\\ts-node-dev-hook-8534580599554986.js:69:33)',
+  label: 'PH',
+  timestamp: '2023-09-16T16:19:08.355Z'
+}
