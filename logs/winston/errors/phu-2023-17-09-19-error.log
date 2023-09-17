@@ -1,0 +1,48 @@
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-17T13:35:45.303Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-17T13:35:55.932Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-17T13:36:03.333Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'Failed to database connection EVENT_ACADEMIC_SEMESTER_UPDATED is not defined',
+  stack: 'ReferenceError: EVENT_ACADEMIC_SEMESTER_UPDATED is not defined\n' +
+    '    at InitAcademicSemesterEvents (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\app\\modules\\academicSemester\\academicSemester.event.ts:14:25)\n' +
+    '    at subscribeToEvents (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\app\\events\\index.ts:4:29)\n' +
+    '    at D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:19:24\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'PH',
+  timestamp: '2023-09-17T13:36:09.565Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-17T13:36:11.248Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'Failed to database connection EVENT_ACADEMIC_SEMESTER_UPDATE is not defined',
+  stack: 'ReferenceError: EVENT_ACADEMIC_SEMESTER_UPDATE is not defined\n' +
+    '    at InitAcademicSemesterEvents (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\app\\modules\\academicSemester\\academicSemester.event.ts:21:25)\n' +
+    '    at subscribeToEvents (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\app\\events\\index.ts:4:29)\n' +
+    '    at D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:19:24\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'PH',
+  timestamp: '2023-09-17T13:36:14.413Z'
+}
