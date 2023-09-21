@@ -137,6 +137,10 @@ const updateOneInDBFromEvent = async (
   );
 };
 
+const deleteOneFromDBFromEvent = async (syncId: string): Promise<void> => {
+  await AcademicDepartment.findOneAndDelete({ syncId });
+};
+
 export const AcademicDepartmentService = {
   createAcademicDepartment,
   getAllDepartment,
@@ -145,4 +149,5 @@ export const AcademicDepartmentService = {
   updateDepartment,
   insertIntoDBFromEvent,
   updateOneInDBFromEvent,
+  deleteOneFromDBFromEvent,
 };

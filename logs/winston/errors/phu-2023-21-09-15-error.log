@@ -1,0 +1,30 @@
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-21T09:37:32.368Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'Failed to database connection EVE is not defined',
+  stack: 'ReferenceError: EVE is not defined\n' +
+    '    at InitAcademicDepartmentEvents (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\app\\modules\\academicDepartments\\academicDepartment.event.ts:34:5)\n' +
+    '    at subscribeToEvents (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\app\\events\\index.ts:6:31)\n' +
+    '    at D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:19:24\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'PH',
+  timestamp: '2023-09-21T09:37:35.209Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'Failed to database connection async is not defined',
+  stack: 'ReferenceError: async is not defined\n' +
+    '    at InitAcademicDepartmentEvents (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\app\\modules\\academicDepartments\\academicDepartment.event.ts:36:5)\n' +
+    '    at subscribeToEvents (D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\app\\events\\index.ts:6:31)\n' +
+    '    at D:\\Project\\level2-project\\university-management-auth-service-backend\\src\\server.ts:19:24\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'PH',
+  timestamp: '2023-09-21T09:37:43.882Z'
+}

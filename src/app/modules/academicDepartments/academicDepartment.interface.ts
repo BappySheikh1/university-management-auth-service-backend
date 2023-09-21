@@ -27,3 +27,7 @@ export type AcademicDepartmentUpdatedEvent = {
   title: string;
   academicFacultyId: string;
 };
+
+export type AcademicDepartmentDeletedEvent = {
+  id: string;
+};
