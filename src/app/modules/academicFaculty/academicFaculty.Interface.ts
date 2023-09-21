@@ -12,3 +12,17 @@ export type AcademicFacultyModel = Model<
 export type IAcademicFacultyFilters = {
   searchTerm?: string;
 };
+
+export type AcademicFacultyCreatedEvents = {
+  id: string;
+  title: string;
+};
+
+export type AcademicFacultyUpdatedEvents = {
+  id: string;
+  title: string;
+};
+
+export type AcademicFacultyDeletedEvents = {
+  id: string;
+};
