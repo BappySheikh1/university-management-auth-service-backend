@@ -3,152 +3,124 @@
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:17:14.844Z'
+  timestamp: '2023-09-21T09:03:39.703Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:17:14.852Z'
+  timestamp: '2023-09-21T09:03:39.710Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:39:25.021Z'
+  timestamp: '2023-09-21T09:03:57.225Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:39:25.035Z'
+  timestamp: '2023-09-21T09:03:57.233Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:39:59.672Z'
+  timestamp: '2023-09-21T09:04:05.880Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:39:59.680Z'
+  timestamp: '2023-09-21T09:04:05.886Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:40:06.063Z'
+  timestamp: '2023-09-21T09:07:12.854Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:40:06.075Z'
+  timestamp: '2023-09-21T09:07:12.861Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:40:09.338Z'
+  timestamp: '2023-09-21T09:08:51.836Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:40:09.357Z'
+  timestamp: '2023-09-21T09:08:51.848Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:44:28.869Z'
+  timestamp: '2023-09-21T09:10:26.403Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:44:28.876Z'
+  timestamp: '2023-09-21T09:10:26.411Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:44:34.171Z'
+  timestamp: '2023-09-21T09:10:30.751Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:44:34.180Z'
+  timestamp: '2023-09-21T09:10:30.757Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:45:35.982Z'
+  timestamp: '2023-09-21T09:10:39.559Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:45:35.989Z'
+  timestamp: '2023-09-21T09:10:39.566Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:45:49.382Z'
+  timestamp: '2023-09-21T09:10:55.312Z'
 }
 {
   message: 'Example app listening on port 3001',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-09-21T05:45:49.388Z'
-}
-{
-  message: 'Database connect successfully',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-09-21T05:51:27.168Z'
-}
-{
-  message: 'Example app listening on port 3001',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-09-21T05:51:27.176Z'
-}
-{
-  message: 'Database connect successfully',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-09-21T05:52:03.468Z'
-}
-{
-  message: 'Example app listening on port 3001',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-09-21T05:52:03.475Z'
+  timestamp: '2023-09-21T09:10:55.320Z'
 }

@@ -15,3 +15,15 @@ export type IAcademicDepartmentFilters = {
   searchTerm?: string | undefined;
   academicFaculty?: Types.ObjectId;
 };
+
+export type AcademicDepartmentCreatedEvent = {
+  id: string;
+  title: string;
+  academicFacultyId: string;
+};
+
+export type AcademicDepartmentUpdatedEvent = {
+  id: string;
+  title: string;
+  academicFacultyId: string;
+};

@@ -3,11 +3,14 @@ import { PaginationHelper } from '../../../helpers/paginationHelper';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { academicDepartmentSearchableFields } from './academicDepartment.Constant';
 import {
+  AcademicDepartmentCreatedEvent,
+  AcademicDepartmentUpdatedEvent,
   IAcademicDepartment,
   IAcademicDepartmentFilters,
 } from './academicDepartment.interface';
 import { AcademicDepartment } from './academicDepartment.model';
 import { IGenericResponse } from '../../../interfaces/common';
+import { AcademicFaculty } from '../academicFaculty/academicFaculty.Model';
 
 const createAcademicDepartment = async (
   payload: IAcademicDepartment
@@ -99,10 +102,47 @@ const deleteDepartment = async (
   return result;
 };
 
+const insertIntoDBFromEvent = async (
+  e: AcademicDepartmentCreatedEvent
+): Promise<void> => {
+  const academicFaculty = await AcademicFaculty.findOne({
+    syncId: e.academicFacultyId,
+  });
+  const payload = {
+    title: e.title,
+    academicFaculty: academicFaculty?._id,
+    syncId: e.id,
+  };
+
+  await AcademicDepartment.create(payload);
+};
+
+const updateOneInDBFromEvent = async (
+  e: AcademicDepartmentUpdatedEvent
+): Promise<void> => {
+  const academicFaculty = await AcademicFaculty.findOne({
+    syncId: e.academicFacultyId,
+  });
+
+  const payload = {
+    title: e.title,
+    academicFaculty: academicFaculty?._id,
+  };
+
+  await AcademicDepartment.findOneAndUpdate(
+    { syncId: e.id },
+    {
+      $set: payload,
+    }
+  );
+};
+
 export const AcademicDepartmentService = {
   createAcademicDepartment,
   getAllDepartment,
   getSingleDepartment,
   deleteDepartment,
   updateDepartment,
+  insertIntoDBFromEvent,
+  updateOneInDBFromEvent,
 };
