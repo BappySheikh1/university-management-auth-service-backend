@@ -145,6 +145,10 @@ const updateOneIntoDBFromEvent = async (
   );
 };
 
+const deleteOneIntoDBFromEvent = async (syncId: string) => {
+  await AcademicSemester.findOneAndDelete({ syncId });
+};
+
 export const AcademicSemesterService = {
   createSemester,
   getAllSemesterService,
@@ -153,4 +157,5 @@ export const AcademicSemesterService = {
   deleteSemester,
   createSemesterFromEvent,
   updateOneIntoDBFromEvent,
+  deleteOneIntoDBFromEvent,
 };
