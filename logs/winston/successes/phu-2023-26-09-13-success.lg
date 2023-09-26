@@ -1,0 +1,28 @@
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T07:07:12.815Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T07:07:12.829Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T07:07:29.044Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T07:07:29.053Z'
+}

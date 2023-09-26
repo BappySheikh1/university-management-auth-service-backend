@@ -1,0 +1,56 @@
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T06:11:40.121Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T06:11:40.134Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T06:27:40.538Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T06:27:40.572Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T06:31:09.195Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T06:31:09.202Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T06:31:32.906Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-09-26T06:31:32.921Z'
+}

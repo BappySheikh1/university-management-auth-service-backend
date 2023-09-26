@@ -16,6 +16,8 @@ import { IFaculty } from '../faculty/faculty.Interface';
 import { Faculty } from '../faculty/faculty.model';
 import { IAdmin } from '../admin/admin.interface';
 import { Admin } from '../admin/admin.model';
+import { RedisClient } from '../../../shared/radis';
+import { EVENT_STUDENT_CREATED } from './user.constant';
 
 const createStudent = async (
   student: IStudent,
@@ -77,6 +79,13 @@ const createStudent = async (
         { path: 'academicFaculty' },
       ],
     });
+  }
+
+  if (newUserAllData) {
+    RedisClient.publish(
+      EVENT_STUDENT_CREATED,
+      JSON.stringify(newUserAllData.student)
+    );
   }
 
   return newUserAllData;
