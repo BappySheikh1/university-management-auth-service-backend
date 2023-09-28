@@ -3,11 +3,15 @@ import { IStudent, IStudentFilters } from './student.interface';
 import { Student } from './student.model';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { IGenericResponse } from '../../../interfaces/common';
-import { StudentSearchableFields } from './student.constant';
+import {
+  EVENT_STUDENT_UPDATED,
+  StudentSearchableFields,
+} from './student.constant';
 import { PaginationHelper } from '../../../helpers/paginationHelper';
 import { SortOrder } from 'mongoose';
 import ApiError from '../../../errors/ApiError';
 import httpStatus from 'http-status';
+import { RedisClient } from '../../../shared/radis';
 
 const getAllStudents = async (
   filters: IStudentFilters,
@@ -123,6 +127,10 @@ const updateStudent = async (
       new: true,
     }
   );
+
+  if (result) {
+    await RedisClient.publish(EVENT_STUDENT_UPDATED, JSON.stringify(result));
+  }
   return result;
 };
 

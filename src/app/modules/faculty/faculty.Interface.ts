@@ -40,3 +40,5 @@ export type IFacultyFilters = {
   academicFaculty?: string;
   designation?: string;
 };
+
+export const EVENT_FACULTY_UPDATED = 'faculty.updated';

@@ -4,11 +4,12 @@ import mongoose, { SortOrder } from 'mongoose';
 import ApiError from '../../../errors/ApiError';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
-import { adminSearchableFields } from './admin.constant';
+import { EVENT_ADMIN_UPDATED, adminSearchableFields } from './admin.constant';
 import { IAdmin, IAdminFilters } from './admin.interface';
 import { Admin } from './admin.model';
 import { PaginationHelper } from '../../../helpers/paginationHelper';
 import { User } from '../users/user.model';
+import { RedisClient } from '../../../shared/radis';
 
 const getAllAdmins = async (
   filters: IAdminFilters,
@@ -94,6 +95,10 @@ const updateAdmin = async (
   const result = await Admin.findOneAndUpdate({ id }, updatedStudentData, {
     new: true,
   });
+
+  if (result) {
+    await RedisClient.publish(EVENT_ADMIN_UPDATED, JSON.stringify(result));
+  }
   return result;
 };
 
